@@ -21,7 +21,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
-df.to_csv("data.csv", index=False)
+df.to_csv("sample_data.csv")
 st.write(df)
 
 uploaded_file = st.file_uploader("Choose a file", type=["csv", "xlsx"])
